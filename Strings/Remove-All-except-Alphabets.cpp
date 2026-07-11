@@ -1,0 +1,17 @@
+// User function Template for C++
+class Solution {
+  public:
+    // Function to remove all occurrences of the character from the string
+    void removeCharacter(string &s, char c) {
+        // code here
+        string ans=" ";
+        for(int i=0;i<s.size();i++)
+        {
+            if(s[i]!=c)
+            {
+               ans+=s[i];
+            }
+        }
+     s=ans;
+    }
+};
